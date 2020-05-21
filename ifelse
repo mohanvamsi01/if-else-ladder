@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("Enter the marks");
+    scanf("%d",&a);
+    if (a>=85 && a<=100)
+        printf("Achieved grade is 'A' ");
+    else if (a>=70 && a<85)
+        printf("Achieved grade is 'B' ");
+    else if (a>=55 && a<69)
+        printf("Achieved grade is 'C' ");
+    else if (a>=40 && a<55)
+        printf("Achieved grade is 'D' ");
+    else if (a<40)
+        printf("Achieved grade is 'F' ");
+ 
+}
